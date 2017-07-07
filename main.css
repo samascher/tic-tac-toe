@@ -1,0 +1,120 @@
+body {
+    font-family: 'Amatic SC';
+    text-align: center;
+    background: #3B653D;
+    color: #F5F9AD;
+    display: inline;
+    margin: 0px;
+}
+
+
+#read {
+  background: black;
+  border-radius: 25px;
+  margin-left: 545px;
+  margin-right: 545px;
+}
+
+/*TICTACTOE HEADER*/
+h1 {
+  font-size: 65px;
+  line-height: 15px;
+  letter-spacing: 11px;
+}
+
+/*RULES HEADER*/
+h2 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #FAD48B;
+  line-height: 37px;
+  margin-bottom: 0px;
+  padding-top: 3px;;
+}
+
+/*LIST OF RULES*/
+h3 {
+  line-height: 35px;
+  font-size: 30px;
+  color: #F6F4F1;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+td {
+  border: 5px solid black;
+  height: 110px;
+  width: 110px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+td:first-child{
+  border-left: none;
+}
+
+td:last-child{
+  border-right: none;
+}
+
+thead tr td{
+  border-top:none;
+  border-bottom: none;
+}
+
+tfoot tr td{
+  border-top:none;
+  border-bottom: none;
+}
+
+#reset {
+  padding: 2px;
+  margin-top: 20px;
+  width: 125px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Amatic SC';
+  font-size: 45px;
+  background: black;
+  color: #ED7777;
+}
+
+.X, .O {
+  border-radius: 10px;
+  font-family: 'Fredericka the Great';
+  font-size: 80px;
+}
+
+.X {
+  background: black;
+  font-color: #F5F9AD;
+}
+
+.O {
+  background: black;
+  font-color: #FAD48B;
+}
+
+.clear {
+  font-color: black;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 400px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 400px) 
+  and (max-device-width: 1600px) 
+}

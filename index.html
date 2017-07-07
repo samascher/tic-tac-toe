@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+
+	<div id="read">
+		<h2>Rules:</h2>
+
+		<h3>
+				<br />Player X goes first
+				<br />Alternate turns
+				<br />Get 3 letters in a row first to win
+				<br />Have fun!
+		</h3>
+	</div>
+  
+	<table><!--CREATE A TABLE-->
+
+    	<thead> <!--TABLE HEAD / ROW 1-->
+	      	<tr>
+	        	<td data-num="0"></td>
+	        	<td data-num="1"></td>
+	        	<td data-num="2"></td>
+	      	</tr>
+    	</thead>
+
+	    <tbody><!--TABLE BODY / ROW 2-->
+	      	<tr>
+	        	<td data-num="3"></td>
+	        	<td data-num="4"></td>
+	        	<td data-num="5"></td>
+	      	</tr>
+	    </tbody>
+
+	    <tfoot><!--TABLE FOOT / ROW 3-->
+	      	<tr>
+	        	<td data-num="6"></td>
+	        	<td data-num="7"></td>
+	        	<td data-num="8"></td>
+	      	</tr>
+	    </tfoot>
+
+	</table>
+
+	<div class = "container"> <!-- RESET BUTTON-->
+    	<button id="reset">Eraser</button>
+    </div>
+
+	<script src = "java.js" async></script>
+</body>
+</html>
