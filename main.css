@@ -53,6 +53,8 @@ table {
   margin: 0 auto;
   border-radius: 20px;
   border: 5px solid black;
+  font-family: 'Fredericka the Great';
+  font-size: 80px;
 }
 
 td:first-child{
@@ -61,16 +63,6 @@ td:first-child{
 
 td:last-child{
   border-right: none;
-}
-
-thead tr td{
-  border-top:none;
-  border-bottom: none;
-}
-
-tfoot tr td{
-  border-top:none;
-  border-bottom: none;
 }
 
 #reset {
@@ -86,35 +78,19 @@ tfoot tr td{
   color: #ED7777;
 }
 
-.X, .O {
-  border-radius: 10px;
-  font-family: 'Fredericka the Great';
-  font-size: 80px;
-}
-
-.X {
-  background: black;
-  font-color: #F5F9AD;
-}
-
-.O {
-  background: black;
-  font-color: #FAD48B;
-}
-
 .clear {
   font-color: black;
 }
 
-/* ----------- Non-Retina Screens ----------- */
+/* ----------- Non-Retina Screens -----------
 @media screen 
   and (min-device-width: 400px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
 
-/* ----------- Retina Screens ----------- */
+----------- Retina Screens -----------
 @media screen 
   and (min-device-width: 400px) 
   and (max-device-width: 1600px) 
-}
+}*/
