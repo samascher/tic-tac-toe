@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tic Tac Toe</title>
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
+	<title>Tic Tac Toe</title>
 </head>
 <body>
 	<h1>Tic Tac Toe</h1>
@@ -14,43 +14,37 @@
 		<h3>
 				<br />Player X goes first
 				<br />Alternate turns
-				<br />Get 3 letters in a row first to win
+				<br />Get 3 letters in a row to win
 				<br />Have fun!
 		</h3>
 	</div>
   
 	<table><!--CREATE A TABLE-->
 
-    	<thead> <!--TABLE HEAD / ROW 1-->
-	      	<tr>
-	        	<td data-num="0"></td>
-	        	<td data-num="1"></td>
-	        	<td data-num="2"></td>
-	      	</tr>
-    	</thead>
+    	<tr class="1"> <!--TABLE HEAD / ROW 1-->
+	        <td class="1"></td>
+	        <td class="2"></td>
+	        <td class="3"></td>
+    	</tr>
 
-	    <tbody><!--TABLE BODY / ROW 2-->
-	      	<tr>
-	        	<td data-num="3"></td>
-	        	<td data-num="4"></td>
-	        	<td data-num="5"></td>
-	      	</tr>
-	    </tbody>
+	    <tr class="2">
+	        <td class="4"></td>
+	        <td class="5"></td>
+	        <td class="6"></td>
+	    </tr>
 
-	    <tfoot><!--TABLE FOOT / ROW 3-->
-	      	<tr>
-	        	<td data-num="6"></td>
-	        	<td data-num="7"></td>
-	        	<td data-num="8"></td>
-	      	</tr>
-	    </tfoot>
-
+	    <tr class="3">
+	        <td class="7"></td>
+	        <td class="8"></td>
+	        <td class="9"></td>
+	    </tr>
 	</table>
 
 	<div class = "container"> <!-- RESET BUTTON-->
     	<button id="reset">Eraser</button>
     </div>
-
-	<script src = "java.js" async></script>
+    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type= "text/javascript" src= "java.js"></script>
 </body>
 </html>
